@@ -20,5 +20,5 @@ printf("");
 scanf("%d",&b);
 
 int sum = a + b;
-printf("Sum:%d",sum);
+printf("Sum: %d",sum);
 }
