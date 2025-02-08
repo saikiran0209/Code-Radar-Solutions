@@ -1,13 +1,24 @@
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-int a, b ;
-printf("5");
+// int main() {
+// int a, b ;
+// printf("5");
+// scanf("%d",&a);
+// printf("10");
+// scanf("%d",&b);
+
+// int sum = a + b ;
+// printf("sum");
+//     return 0;
+// }
+# include<stdio.h>
+int main(){
+int a , b;
+printf("enter a =");  
 scanf("%d",&a);
-printf("10");
+printf("enter b =");  
 scanf("%d",&b);
 
-int sum = a + b ;
-printf("the sum of a and b is =");
-    return 0;
+int sum = a + b;
+printf("Sum is :%d",sum);
 }
