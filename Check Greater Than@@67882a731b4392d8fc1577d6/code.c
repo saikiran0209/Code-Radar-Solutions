@@ -7,8 +7,11 @@ int main() {
     if(a>b){
         printf("True");
     }
-    elif(b>a){
+    elif(a<b){
         printf("False");
+    }
+    else{
+        printf("")
     }
     return 0;
 }
