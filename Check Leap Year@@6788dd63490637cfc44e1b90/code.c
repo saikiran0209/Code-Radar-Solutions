@@ -10,7 +10,7 @@ int main() {
         print("Leap Year");
     }
     else{
-        printf("NOt a Leap Year");
+        printf("Not a Leap Year");
     }
     return 0;
 }
