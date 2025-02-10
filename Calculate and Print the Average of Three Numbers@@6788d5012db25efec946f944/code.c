@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (){
-    int a,b,c,Avg ;
+    int a,b,c, ;
     printf("");
     scanf("%d",&a);
     printf("");
@@ -8,6 +8,6 @@ int main (){
     printf("");
     scanf("%d",&c);
     Avg = (a + b + c)/3;
-    printf("Average: %.2f\n",Average);
+    printf("Average: %.2f\n",Avg);
     return 0;
 }
