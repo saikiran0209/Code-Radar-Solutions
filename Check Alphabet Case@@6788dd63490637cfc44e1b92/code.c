@@ -8,6 +8,6 @@ int main() {
     // }else{
     //     printf("Lowercase");
     // }
-    (ch > 'A' && ch < 'Z')?printf("Uppercase"):(ch > 'a' && ch < 'z')?printf("Lowercase"):printf("Not an alphabet");
+    (ch >= 'A' && ch <= 'Z')?printf("Uppercase"):(ch >= 'a' && ch <= 'z')?printf("Lowercase"):printf("Not an alphabet");
     return 0;
 }
