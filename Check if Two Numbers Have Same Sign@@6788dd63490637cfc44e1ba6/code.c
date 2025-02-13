@@ -9,7 +9,7 @@ if(num1>=0&& num2>=0){
 }else if(num1<=0 && num2<=0){
     printf("Same Sign");
 }else{
-    printf("Diffrent Sign");
+    printf("Different Sign");
 }
 return 0;
 }
