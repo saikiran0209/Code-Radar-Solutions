@@ -5,6 +5,8 @@ int main(){
     scanf("%d",&num);
     if (num%2==0 || num%3==0){
         printf("Not Prime");
+}else if (num==2){
+    printf("Prime");
 }else{
     printf("Prime");
 }
